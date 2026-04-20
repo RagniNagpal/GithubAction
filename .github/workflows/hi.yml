@@ -23,7 +23,6 @@
 #       - name: Deploy step
 #         run: echo "Deploying application..."
 
-
 name: Uses
 
 on: push
@@ -33,7 +32,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-     steps:
+    steps:  
       - name: Checkout code
         uses: actions/checkout@v4
 
