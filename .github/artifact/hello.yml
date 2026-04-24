@@ -1,7 +1,6 @@
 -name: Share Data Between Jobs
 
-on:
-  push
+on: push
 
 jobs:
   job_1:
